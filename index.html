@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+    <!--NAVIGATION-->
     <section>
       <nav>
         <div class="logo">
@@ -24,6 +26,8 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <!--HEADER-->
       <header>
         <div class="row row__course">
           <div class="course">
@@ -52,7 +56,11 @@
         </div>
       </header>
     </section>
+
+    <!--MAIN-->
     <main>
+
+      <!--ABOUT-->
       <section id="about">
         <div class="row about__row">
           <div class="section__card section__card--about">
@@ -74,13 +82,14 @@
         </div>
       </section>
 
+      <!--SOCIAL-->
       <section id="social">
         <div class="row social__row">
           <div class="section__card section__card--social">
-            <h1 class="section__title>Social</h1>
+            <h1 class="section__title">Social</h1>
             <div class="section__description">
               <figure class="section__img--wrapper">
-                <img src="assets/reading.png" alt="about image">
+                <img src="assets/social.png" alt="2 friends making layout">
               </figure>
               <div class="section__description--wrapper">
                 <p class="section__description--para">
@@ -94,6 +103,38 @@
           </div>
         </div>
       </section>
+
+      <!--CONTACT-->
+      <section id="contact">
+        <div class="row contact__row">
+          <div class="section__card section__card--contact">
+            <h1 class="section__title">Contact</h1>
+            <div class="section__description">
+              <form action="">
+                <span>Email</span>
+                <input type="email" placeholder="jane@example.com">
+                <span>Message</span>
+                <textarea type="text" placeholder="Cool website, let's get connected!"></textarea>
+                <button>Contact Us</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="logo footer__logo">
+        <img src="assets/fes-logo.png" alt="frontend simplified logo" class="logo__img" width="50">
+        <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+      </div>
+      <div class="footer__links">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#social" class="footer__link">Social</a>
+        <a href="#contact" class="footer__link">Contact</a>
+        <a href="#" class="footer__link">Courses</a>
+      </div>
+      <p>© Frontend Simplified</p>
+    </footer>
   </body>
 </html>
